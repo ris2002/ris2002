@@ -41,6 +41,22 @@ Seven documented neural network experiments benchmarked against gradient-boosted
 
 ---
 
+## Learning MLOps, one tool at a time
+
+Rather than copying a full stack from a template, I took a single training pipeline and added one piece of infrastructure per repo — so I understood what each layer was actually solving before adding the next. Read in order:
+
+| # | Repo | What got added |
+|---|---|---|
+| 1 | [ci-cd-ml-training-pipeline-zenml](https://github.com/ris2002/ci-cd-ml-training-pipeline-zenml) | Pipeline structure and step orchestration with ZenML |
+| 2 | [dockerized-ml-api-ci-cd](https://github.com/ris2002/dockerized-ml-api-ci-cd) | Containerised serving behind an API, plus a CI pipeline |
+| 3 | [data-versioned-ml-pipeline-dvc](https://github.com/ris2002/data-versioned-ml-pipeline-dvc) | Data and model versioning with DVC — reproducible reruns |
+| 4 | [airflow-kubernetes-ml-pipeline](https://github.com/ris2002/airflow-kubernetes-ml-pipeline) | Scheduled orchestration on Airflow, running on Kubernetes |
+| 5 | [event-driven-ml-system-kafka](https://github.com/ris2002/event-driven-ml-system-kafka) | Event-driven inference with Kafka instead of request/response |
+
+The models themselves are deliberately simple — the point of each repo is the infrastructure around it. [Diabetes_Prediction-MLE](https://github.com/ris2002/Diabetes_Prediction-MLE) above is where the whole stack comes together on one problem.
+
+---
+
 ## Also worth a look
 | Repo | What it is |
 |---|---|
@@ -64,9 +80,8 @@ Seven documented neural network experiments benchmarked against gradient-boosted
 - **Software Engineer**, Reva Solutions (Hyderabad) — Aug 2024 to Aug 2025. Built LangChain RAG pipelines over the SAM.GOV federal contracts API, and a ServiceNow ↔ OpenText enterprise integration (REST, OAuth 2.0).
 - **BTech, Information Technology**, CBIT Hyderabad — 2020 to 2024
 
-I use AI assistants heavily while building, the way most engineers now do — and I go back and rebuild the parts I can't explain. Ask me about any file in these repos.
+Ask me about any file in these repos.
 
 ---
 
 📫 [LinkedIn](https://linkedin.com/in/rishilboddula) · rb25abl@herts.ac.uk · Based in the UK, with full right to work via the Graduate Route from 2027
-
