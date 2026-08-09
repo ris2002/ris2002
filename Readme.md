@@ -69,3 +69,4 @@ I use AI assistants heavily while building, the way most engineers now do — an
 ---
 
 📫 [LinkedIn](https://linkedin.com/in/rishilboddula) · rb25abl@herts.ac.uk · Based in the UK, with full right to work via the Graduate Route from 2027
+
