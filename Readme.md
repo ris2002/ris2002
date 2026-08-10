@@ -27,7 +27,7 @@ A modular desktop AI workspace where adding a capability is a folder plus a regi
 
 - Defaults to **Ollama**, so nothing leaves your machine. API keys and OAuth tokens are Fernet-encrypted at rest; CORS is locked to local origins.
 - Modules only ever call `llm_generate` / `llm_stream` — Ollama, Claude, OpenAI, and Gemini are one file each behind a common interface.
-- [**Mail-Mind**](https://github.com/ris2002/Mail-Mind-App), the first module, does Gmail triage: streaming summaries, reply drafting, flagged-thread tracking with ChromaDB. It polls the Gmail History API for deltas every 60s instead of scanning the inbox, so a quiet mailbox costs almost nothing to watch. Email bodies are wrapped and treated strictly as data to blunt prompt injection.
+
 
 ---
 
