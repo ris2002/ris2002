@@ -7,7 +7,12 @@ MSc Advanced Computer Science @ University of Hertfordshire (UK) · Previously ~
 ---
 
 ## Featured work
+### [Parent Insight Assistant | Python, FastAPI, Supabase Postgres, Claude, Hugging Face](https://github.com/ris2002/Schoolology):An AI assistant that explains a child’s school grades and weak topics to parents.
+An AI assistant that turns a child's Schoology data into clear answers for parents: missing work, recurring weak topics, whether struggles look like effort or understanding, and what to do next. Built on one rule: grades, averages and flags come from a deterministic rule layer, and the AI only explains those numbers, never produces them. Includes a tool-calling chat agent that answers only from the child's data, AI reading of photographed marked papers (processed in memory, never stored), alerts and a weekly AI summary, and a provider-agnostic LLM layer with BYOK. Security: encrypted tokens, per-family access checks on every request, and Postgres row-level security blocking the public database API. AI features are tested with a scripted fake model, so the suite runs with no keys or cost. Schoology OAuth is implemented and pending district approval; meanwhile, families sign in with their child's own API key, kept only in their browser and never stored on the server. Validated on real Coppell ISD student data and in testing with 5 families.
 
+
+
+---
 ### 🔥 [Crucible](https://github.com/ris2002/Crucible): a social platform where you have to earn the right to post
 **[→ Try it live](https://idea-forge-beryl-phi.vercel.app)**
 
